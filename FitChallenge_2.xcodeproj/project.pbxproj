@@ -6,17 +6,70 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC739E942F608A0A009D4F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC739E902F608A0A009D4F05 /* Assets.xcassets */; };
+		FC739E952F608A0A009D4F05 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E6B2F608A0A009D4F05 /* AppState.swift */; };
+		FC739E962F608A0A009D4F05 /* FitChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E6C2F608A0A009D4F05 /* FitChallengeApp.swift */; };
+		FC739E972F608A0A009D4F05 /* FitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E6E2F608A0A009D4F05 /* FitButton.swift */; };
+		FC739E982F608A0A009D4F05 /* FitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E6F2F608A0A009D4F05 /* FitTextField.swift */; };
+		FC739E992F608A0A009D4F05 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E702F608A0A009D4F05 /* LoadingView.swift */; };
+		FC739E9A2F608A0A009D4F05 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E722F608A0A009D4F05 /* Colors.swift */; };
+		FC739E9B2F608A0A009D4F05 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E732F608A0A009D4F05 /* Typography.swift */; };
+		FC739E9C2F608A0A009D4F05 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E762F608A0A009D4F05 /* LoginView.swift */; };
+		FC739E9D2F608A0A009D4F05 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E772F608A0A009D4F05 /* LoginViewModel.swift */; };
+		FC739E9E2F608A0A009D4F05 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E782F608A0A009D4F05 /* RegisterView.swift */; };
+		FC739E9F2F608A0A009D4F05 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E792F608A0A009D4F05 /* RegisterViewModel.swift */; };
+		FC739EA02F608A0A009D4F05 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E7B2F608A0A009D4F05 /* OnboardingView.swift */; };
+		FC739EA12F608A0A009D4F05 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E7C2F608A0A009D4F05 /* OnboardingViewModel.swift */; };
+		FC739EA22F608A0A009D4F05 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E7E2F608A0A009D4F05 /* Catalog.swift */; };
+		FC739EA32F608A0A009D4F05 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E7F2F608A0A009D4F05 /* Home.swift */; };
+		FC739EA42F608A0A009D4F05 /* MarathonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E802F608A0A009D4F05 /* MarathonDetail.swift */; };
+		FC739EA52F608A0A009D4F05 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E812F608A0A009D4F05 /* Profile.swift */; };
+		FC739EA62F608A0A009D4F05 /* CreateMarathon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E832F608A0A009D4F05 /* CreateMarathon.swift */; };
+		FC739EA72F608A0A009D4F05 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E842F608A0A009D4F05 /* Dashboard.swift */; };
+		FC739EA82F608A0A009D4F05 /* Participants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E852F608A0A009D4F05 /* Participants.swift */; };
+		FC739EA92F608A0A009D4F05 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E882F608A0A009D4F05 /* Challenge.swift */; };
+		FC739EAA2F608A0A009D4F05 /* Marathon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E892F608A0A009D4F05 /* Marathon.swift */; };
+		FC739EAB2F608A0A009D4F05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E8A2F608A0A009D4F05 /* User.swift */; };
+		FC739EAC2F608A0A009D4F05 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E8C2F608A0A009D4F05 /* AuthService.swift */; };
+		FC739EAD2F608A0A009D4F05 /* MarathonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E8D2F608A0A009D4F05 /* MarathonService.swift */; };
+		FC739EAE2F608A0A009D4F05 /* MuscleAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E8E2F608A0A009D4F05 /* MuscleAPIService.swift */; };
+		FC739EAF2F608A0A009D4F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E912F608A0A009D4F05 /* ContentView.swift */; };
+		FC739EB02F608A0A009D4F05 /* FitChallenge_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC739E922F608A0A009D4F05 /* FitChallenge_2App.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FC739E162F6084A1009D4F05 /* FitChallenge_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitChallenge_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC739E6B2F608A0A009D4F05 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FC739E6C2F608A0A009D4F05 /* FitChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitChallengeApp.swift; sourceTree = "<group>"; };
+		FC739E6E2F608A0A009D4F05 /* FitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitButton.swift; sourceTree = "<group>"; };
+		FC739E6F2F608A0A009D4F05 /* FitTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTextField.swift; sourceTree = "<group>"; };
+		FC739E702F608A0A009D4F05 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FC739E722F608A0A009D4F05 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FC739E732F608A0A009D4F05 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		FC739E762F608A0A009D4F05 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC739E772F608A0A009D4F05 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FC739E782F608A0A009D4F05 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FC739E792F608A0A009D4F05 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		FC739E7B2F608A0A009D4F05 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FC739E7C2F608A0A009D4F05 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		FC739E7E2F608A0A009D4F05 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		FC739E7F2F608A0A009D4F05 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FC739E802F608A0A009D4F05 /* MarathonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonDetail.swift; sourceTree = "<group>"; };
+		FC739E812F608A0A009D4F05 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FC739E832F608A0A009D4F05 /* CreateMarathon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMarathon.swift; sourceTree = "<group>"; };
+		FC739E842F608A0A009D4F05 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		FC739E852F608A0A009D4F05 /* Participants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participants.swift; sourceTree = "<group>"; };
+		FC739E882F608A0A009D4F05 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		FC739E892F608A0A009D4F05 /* Marathon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marathon.swift; sourceTree = "<group>"; };
+		FC739E8A2F608A0A009D4F05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FC739E8C2F608A0A009D4F05 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		FC739E8D2F608A0A009D4F05 /* MarathonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonService.swift; sourceTree = "<group>"; };
+		FC739E8E2F608A0A009D4F05 /* MuscleAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleAPIService.swift; sourceTree = "<group>"; };
+		FC739E902F608A0A009D4F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC739E912F608A0A009D4F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC739E922F608A0A009D4F05 /* FitChallenge_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitChallenge_2App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC739E182F6084A1009D4F05 /* FitChallenge_2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FitChallenge_2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC739E132F6084A1009D4F05 /* Frameworks */ = {
@@ -32,7 +85,7 @@
 		FC739E0D2F6084A1009D4F05 = {
 			isa = PBXGroup;
 			children = (
-				FC739E182F6084A1009D4F05 /* FitChallenge_2 */,
+				FC739E932F608A0A009D4F05 /* FitChallenge_2 */,
 				FC739E172F6084A1009D4F05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +96,130 @@
 				FC739E162F6084A1009D4F05 /* FitChallenge_2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC739E6D2F608A0A009D4F05 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E6B2F608A0A009D4F05 /* AppState.swift */,
+				FC739E6C2F608A0A009D4F05 /* FitChallengeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC739E712F608A0A009D4F05 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E6E2F608A0A009D4F05 /* FitButton.swift */,
+				FC739E6F2F608A0A009D4F05 /* FitTextField.swift */,
+				FC739E702F608A0A009D4F05 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC739E742F608A0A009D4F05 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E722F608A0A009D4F05 /* Colors.swift */,
+				FC739E732F608A0A009D4F05 /* Typography.swift */,
+				FC739E712F608A0A009D4F05 /* Components */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		FC739E752F608A0A009D4F05 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E742F608A0A009D4F05 /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC739E7A2F608A0A009D4F05 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E762F608A0A009D4F05 /* LoginView.swift */,
+				FC739E772F608A0A009D4F05 /* LoginViewModel.swift */,
+				FC739E782F608A0A009D4F05 /* RegisterView.swift */,
+				FC739E792F608A0A009D4F05 /* RegisterViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FC739E7D2F608A0A009D4F05 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E7B2F608A0A009D4F05 /* OnboardingView.swift */,
+				FC739E7C2F608A0A009D4F05 /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FC739E822F608A0A009D4F05 /* Participant */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E7E2F608A0A009D4F05 /* Catalog.swift */,
+				FC739E7F2F608A0A009D4F05 /* Home.swift */,
+				FC739E802F608A0A009D4F05 /* MarathonDetail.swift */,
+				FC739E812F608A0A009D4F05 /* Profile.swift */,
+			);
+			path = Participant;
+			sourceTree = "<group>";
+		};
+		FC739E862F608A0A009D4F05 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E832F608A0A009D4F05 /* CreateMarathon.swift */,
+				FC739E842F608A0A009D4F05 /* Dashboard.swift */,
+				FC739E852F608A0A009D4F05 /* Participants.swift */,
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
+		FC739E872F608A0A009D4F05 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E7A2F608A0A009D4F05 /* Auth */,
+				FC739E7D2F608A0A009D4F05 /* Onboarding */,
+				FC739E822F608A0A009D4F05 /* Participant */,
+				FC739E862F608A0A009D4F05 /* Trainer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FC739E8B2F608A0A009D4F05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E882F608A0A009D4F05 /* Challenge.swift */,
+				FC739E892F608A0A009D4F05 /* Marathon.swift */,
+				FC739E8A2F608A0A009D4F05 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC739E8F2F608A0A009D4F05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E8C2F608A0A009D4F05 /* AuthService.swift */,
+				FC739E8D2F608A0A009D4F05 /* MarathonService.swift */,
+				FC739E8E2F608A0A009D4F05 /* MuscleAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC739E932F608A0A009D4F05 /* FitChallenge_2 */ = {
+			isa = PBXGroup;
+			children = (
+				FC739E6D2F608A0A009D4F05 /* App */,
+				FC739E752F608A0A009D4F05 /* Core */,
+				FC739E872F608A0A009D4F05 /* Features */,
+				FC739E8B2F608A0A009D4F05 /* Models */,
+				FC739E8F2F608A0A009D4F05 /* Services */,
+				FC739E902F608A0A009D4F05 /* Assets.xcassets */,
+				FC739E912F608A0A009D4F05 /* ContentView.swift */,
+				FC739E922F608A0A009D4F05 /* FitChallenge_2App.swift */,
+			);
+			path = FitChallenge_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +236,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				FC739E182F6084A1009D4F05 /* FitChallenge_2 */,
 			);
 			name = FitChallenge_2;
 			packageProductDependencies = (
@@ -109,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC739E942F608A0A009D4F05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +294,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC739E952F608A0A009D4F05 /* AppState.swift in Sources */,
+				FC739E962F608A0A009D4F05 /* FitChallengeApp.swift in Sources */,
+				FC739E972F608A0A009D4F05 /* FitButton.swift in Sources */,
+				FC739E982F608A0A009D4F05 /* FitTextField.swift in Sources */,
+				FC739E992F608A0A009D4F05 /* LoadingView.swift in Sources */,
+				FC739E9A2F608A0A009D4F05 /* Colors.swift in Sources */,
+				FC739E9B2F608A0A009D4F05 /* Typography.swift in Sources */,
+				FC739E9C2F608A0A009D4F05 /* LoginView.swift in Sources */,
+				FC739E9D2F608A0A009D4F05 /* LoginViewModel.swift in Sources */,
+				FC739E9E2F608A0A009D4F05 /* RegisterView.swift in Sources */,
+				FC739E9F2F608A0A009D4F05 /* RegisterViewModel.swift in Sources */,
+				FC739EA02F608A0A009D4F05 /* OnboardingView.swift in Sources */,
+				FC739EA12F608A0A009D4F05 /* OnboardingViewModel.swift in Sources */,
+				FC739EA22F608A0A009D4F05 /* Catalog.swift in Sources */,
+				FC739EA32F608A0A009D4F05 /* Home.swift in Sources */,
+				FC739EA42F608A0A009D4F05 /* MarathonDetail.swift in Sources */,
+				FC739EA52F608A0A009D4F05 /* Profile.swift in Sources */,
+				FC739EA62F608A0A009D4F05 /* CreateMarathon.swift in Sources */,
+				FC739EA72F608A0A009D4F05 /* Dashboard.swift in Sources */,
+				FC739EA82F608A0A009D4F05 /* Participants.swift in Sources */,
+				FC739EA92F608A0A009D4F05 /* Challenge.swift in Sources */,
+				FC739EAA2F608A0A009D4F05 /* Marathon.swift in Sources */,
+				FC739EAB2F608A0A009D4F05 /* User.swift in Sources */,
+				FC739EAC2F608A0A009D4F05 /* AuthService.swift in Sources */,
+				FC739EAD2F608A0A009D4F05 /* MarathonService.swift in Sources */,
+				FC739EAE2F608A0A009D4F05 /* MuscleAPIService.swift in Sources */,
+				FC739EAF2F608A0A009D4F05 /* ContentView.swift in Sources */,
+				FC739EB02F608A0A009D4F05 /* FitChallenge_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
